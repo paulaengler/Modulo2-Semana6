@@ -6,7 +6,7 @@ function Contato(){
     const [nome, setNome] = useState('')
     const [telefone, setTelefone] = useState('')
     const [email, setEmail] = useState('')
-    // const [mensagem, setMensagem] = useState('')
+    const [mensagem, setMensagem] = useState('')
 
 
     function handleSubmit() {
@@ -14,7 +14,7 @@ function Contato(){
             nome: nome,
             telefone: telefone,
             email: email,
-            // mensagem: mensagem
+            mensagem: mensagem
         }
         console.log('Formulário a ser enviado: ', objetoContato)
     }
@@ -44,7 +44,7 @@ function Contato(){
                     <input placeholder="Nome" value={nome} onChange={(e) => setNome(e.target.value)}/>
                     <input placeholder="Telefone" value={telefone} onChange={(e) => setTelefone(e.target.value)}/>
                     <input placeholder="E-mail" value={email} onChange={(e) => setEmail(e.target.value)}/>
-                    <textarea placeholder="Mensagem"></textarea>
+                    <textarea placeholder="Mensagem" value={mensagem} onChange={(e) => setMensagem(e.target.value)}></textarea>
                     <button onClick={() => handleSubmit()}>Enviar Mensagem</button>
                 </div>
         </div>

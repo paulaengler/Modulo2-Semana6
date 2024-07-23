@@ -57,10 +57,6 @@ Importar os componentes criados e carregá-los para serem exibidos em App.jsx
 Modificar o index.css presente no projeto e ajustá-lo para que a tela da aplicação ocupe 100% de largura, inclusive os componentes, assim como é exibido no site de referência abaixo.
 Site de referência: https://www.origamid.com/projetos/bikcraft/contato.html
 
-
-
-
-
 [M2S06] Ex 7 - Modificar App.jsx para conter dois inputs, textarea e um button de enviar
 Adicionar uma espécie de componente para contato em App.jsx. Nele, deverá conter:
 

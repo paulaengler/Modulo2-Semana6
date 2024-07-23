@@ -8,7 +8,11 @@ import Contato from './components/Contato'
 
 function App() {
   
-  const [contato, setContato] = useState('')
+  const [contato, setContato] = useState({
+    nome: '',
+    email: '',
+    mensagem: ''
+  });
 
   useEffect(() => {
     console.log('useEffect rodando')
